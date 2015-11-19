@@ -11,3 +11,6 @@ git config user.name ridomin
 git add .
 git commit -m "travis push"
 git push origin master
+cd ..
+rm -R site
+
