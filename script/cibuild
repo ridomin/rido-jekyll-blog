@@ -12,5 +12,5 @@ git add .
 git commit -m "travis push"
 git push origin master
 cd ..
-rm -R site
+rm -R -f site
 
