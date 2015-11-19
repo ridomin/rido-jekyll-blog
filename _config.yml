@@ -20,4 +20,4 @@ github_username:  ridomin
 # Build settings
 markdown: kramdown
 
-exclude: ['script', 'Gemfile', 'Gemfile.lock']
+exclude: ['script', 'Gemfile', 'Gemfile.lock','vendor']
