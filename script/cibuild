@@ -6,6 +6,8 @@ bundle exec jekyll build
 git clone https://ridomin:Pasa.123@ridoapps.scm.azurewebsites.net:443/ridoapps.git ../site
 cp -R _site/* ../site
 cd ../site
+git config user.email ridomin@live.com
+git config user.name ridomin
 git add .
 git commit -m "travis push"
 git push origin master
