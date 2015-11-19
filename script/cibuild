@@ -2,4 +2,10 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproof ./_site
+
+git clone https://ridomin:Pasa.123@ridoapps.scm.azurewebsites.net:443/ridoapps.git ../site
+cp -R _site/* ../site
+cd ../site
+git add .
+git commit -m "travis push"
+git push origin master
