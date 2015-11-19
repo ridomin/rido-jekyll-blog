@@ -21,3 +21,4 @@ github_username:  ridomin
 markdown: kramdown
 
 exclude: ['script', 'Gemfile', 'Gemfile.lock','vendor']
+include: ['.deployment']
